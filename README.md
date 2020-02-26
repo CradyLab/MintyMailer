@@ -3,7 +3,7 @@ A simple app for the Raspberry Pi Zero that monitors external hardware for an ev
 
 ## Watch The [Complete Video Tutorial](https://youtu.be/7OaZsSdVpSQ)
 
-![](images/mintymailer_yt_thumbnail_1200x675.jpg)
+<p align="center"><img src="images/mintymailer_yt_thumbnail_1200x675.jpg" width=1200"></p>
 
 #### The Basics
 
@@ -42,6 +42,6 @@ After the script has finished loading you can trigger an event and force the scr
 You can exit the script by pressing and holding the RESET then TEST buttons simultaneously until the LED begins to flash rapidly.
 After that the script will have unloaded and you can release the buttons
 
-<img src="images/emailer_ss_1200x800_06.jpg" width="900">
+<p align="center"><img src="images/emailer_ss_1200x800_06.jpg" width="900"></p>
 
 
