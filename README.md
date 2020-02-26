@@ -3,7 +3,7 @@ A simple app for the Raspberry Pi Zero that monitors external hardware for an ev
 
 ## Watch The [Complete Video Tutorial](https://youtu.be/7OaZsSdVpSQ)
 
-<p align="center"><img src="images/mintymailer_yt_thumbnail_1200x675.jpg" width=1200"></p>
+<p align="center"><img src="images/mintymailer_yt_thumbnail_1200x675.jpg"></p>
 
 #### The Basics
 
@@ -11,7 +11,7 @@ Pin 7 of the Raspberry Pi (GPIO 4) is configured as an input and connected to th
 piezoelectric alarm buzzer.  When the buzzer is silent GPIO 4 sees a LOW. Any 'beep' from the buzzer is conversely
 seen as a HIGH
 
-<p align="center"><img src="images/diagram800x800.png" width="600" height="600"></p>
+<p align="center"><img src="images/diagram800x800.png" width="400" height="400"></p>
 
 The script works by looking for these state changes and any transition from LOW to HIGH is considered
 an 'event'.  Once an event is detected an email is sent, the LED is lit continuously and all subsequent events (i.e.
@@ -42,6 +42,6 @@ After the script has finished loading you can trigger an event and force the scr
 You can exit the script by pressing and holding the RESET then TEST buttons simultaneously until the LED begins to flash rapidly.
 After that the script will have unloaded and you can release the buttons
 
-<p align="center"><img width="1200" src="images/emailer_ss_1200x800_06.jpg"></p>
+<p align="center"><img src="images/emailer_ss_1200x800_06.jpg"></p>
 
 
