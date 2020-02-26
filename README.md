@@ -42,6 +42,6 @@ After the script has finished loading you can trigger an event and force the scr
 You can exit the script by pressing and holding the RESET then TEST buttons simultaneously until the LED begins to flash rapidly.
 After that the script will have unloaded and you can release the buttons
 
-<img src="emailer_ss_1200x800_06.jpg" width="1200" height="800">
+<img src="emailer_ss_1200x800_06.jpg" width="800">
 
 
