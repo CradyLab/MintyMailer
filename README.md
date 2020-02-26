@@ -5,7 +5,7 @@ A simple app for the Raspberry Pi Zero that monitors external hardware for an ev
 
 ![](images/mintymailer_yt_thumbnail_1200x675.jpg)
 
-###### The Basics
+#### The Basics
 
 Pin 7 of the Raspberry Pi (GPIO 4) is configured as an input and connected to the (+) side of a battery charger's
 piezoelectric alarm buzzer.  When the buzzer is silent GPIO 4 sees a LOW. Any 'beep' from the buzzer is conversely
@@ -17,7 +17,7 @@ The script works by looking for these state changes and any transition from LOW 
 an 'event'.  Once an event is detected an email is sent, the LED is lit continuously and all subsequent events (i.e.
 continuous beeping by the charger) are ignored until the START/RESET button is pressed
 
-###### After Loading
+#### After Loading
 
 When the script is first run the LED will slowly flash 5 times to indicate it has successfully loaded.  After that the
 LED will remain OFF until the START/RESET button has been pressed
@@ -33,11 +33,11 @@ an event
 When an event has been detected the LED will go ON, and then flash rapidly to indicate an email is in the process of
 being sent.  Once an email is sent the LED will then remain ON (steady state) until the START/RESET button is pressed again
 
-###### Test Emails
+#### Test Emails
 
 After the script has finished loading you can trigger an event and force the script to send an email by pressing the TEST button
 
-###### Unloading
+#### Unloading
 
 You can exit the script by pressing and holding the RESET then TEST buttons simultaneously until the LED begins to flash rapidly.
 After that the script will have unloaded and you can release the buttons
