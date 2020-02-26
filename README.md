@@ -11,6 +11,8 @@ Pin 7 of the Raspberry Pi (GPIO 4) is configured as an input and connected to th
 piezoelectric alarm buzzer.  When the buzzer is silent GPIO 4 sees a LOW. Any 'beep' from the buzzer is conversely
 seen as a HIGH
 
+![Wiring Diagram](images/diagram800x800.png)
+
 The script works by looking for these state changes and any transition from LOW to HIGH is considered
 an 'event'.  Once an event is detected an email is sent, the LED is lit continuously and all subsequent events (i.e.
 continuous beeping by the charger) are ignored until the START/RESET button is pressed
