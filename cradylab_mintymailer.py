@@ -2,7 +2,7 @@
 #
 #
 #
-#	MintyMailer(tm) Copright(C)2017 Crady von Pawlak - CradyLab(tm)
+#	MintyMailer(tm) Copright(C)2017 Crady von Pawlak - CradyLab(tm) https://github.com/CradyLab/MintyMailer
 #	 
 #	Rel 1.0
 #	
