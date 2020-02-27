@@ -46,4 +46,4 @@ After that the script will have unloaded and you can release the buttons.
 
 <p align="center"><img src="images/emailer_ss_1200x800_06.jpg"></p>
 
-
+<p><br></p>
