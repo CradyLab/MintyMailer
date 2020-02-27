@@ -1,3 +1,5 @@
+<img src="images/CradyLab_450x110.png" width="450" height="110" />
+
 # Raspberry Pi Zero Sends Email On Hardware Event
 A simple app for the Raspberry Pi Zero that monitors external hardware for an event and then sends an email alert when it occurs 
 
